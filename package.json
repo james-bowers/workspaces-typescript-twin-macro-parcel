@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "workspaces": ["./packages/library"],
+  "scripts": {
+    "library": "yarn workspace ts-twin-parcel",
+    "library:build": "yarn library build"
+  }
+}
